@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For loop..</title>
+</head>
+<body>
+    <script>
+       //THIS SECTION IS FOR LOOP SECTION..
+       //It is for of loop
+       const numbers = [50, 45, 67, 89, 90];
+       for(const num of numbers){
+        console.log(num);
+       }
+       //Same problem solve while loop
+       const someNumbers = [23, 78, 45, 78, 83];
+       let index = 0;
+       let count = 0;
+       while(index < someNumbers.length){
+        console.log(count+". The number are : "+someNumbers[index]);
+        index++;
+        count++;
+       }
+       //using for of loop
+       const furits = ['Apple', 'Orange', 'Banana', 'Mango'];
+       for(const item of furits){
+        console.log("Furits iteam are : "+item);
+       }
+       //Same problem solve the while loop
+       const furits1 = ['Apple', 'Orange', 'Banana', 'Mango'];
+       let size = 0;
+       while(size < furits1.length){
+        console.log("When use while then output is : "+furits[size]);
+        size++;
+       }
+
+       //while loop
+       let number = 0;
+       while(number < 5){
+        console.log("The while number are: "+number);
+        number++;
+       }
+       //now using for loop
+       for(let num1= 0; num1<5; num1++){
+        console.log("For loop result is : "+num1);
+       }
+       //while loop
+       let schoolNumer = 0;
+       while(schoolNumer < 5){
+        console.log(schoolNumer+ ". My School name is chowaribari venna bari motilal high school!");
+        schoolNumer++;
+       }
+       //using for loop
+       for(let universityNumbers = 0; universityNumbers < 10; universityNumbers++){
+        console.log(universityNumbers+". Green University of Bangladesh");
+       }
+       //sum using while loop..
+       let sumNum = 0;
+       let totalSum = 0;
+       while(sumNum < 10){
+        totalSum = totalSum + sumNum;
+        sumNum++;
+       }
+       console.log("Total some result is : "+totalSum);
+       //sum suing for loop;
+       let totalResult = 0;
+       for(let total = 0; total < 10; total++){
+         totalResult = totalResult + total;
+       }
+       console.log("Using for loop total sum result is: "+totalResult);
+       //While loop multipication...
+       let multipication = 1;
+       while(multipication < 10){
+        console.log("The multipaction is : "+multipication * 3);
+        multipication++;
+       }
+       //multipication using for loop
+       for(let mul = 1; mul<10; mul++){
+        console.log("Using for loop multipaciton is : "+mul * 3);
+       }
+       //while loop..
+       let newNumers = 111;
+       while(newNumers >= 110){
+        console.log('the output is: '+newNumers / 2);
+        newNumers--;
+       }
+       //For loop 
+       for(let i = 150; i < 170; i++){
+        console.log("Numer is : "+ i );
+       }
+       //find odd number using for loop..
+       for(let i = 0; i<= 20; i++){
+        if(i % 2 == 0){
+          console.log("The odd number is: "+i);
+        }
+       }
+       //find odd number using while loop
+       let oddNumer = 0;
+       while(oddNumer < 20){
+        if(oddNumer % 2 == 0 ){
+          console.log("using while loop odd number is : "+oddNumer);   
+        }
+        oddNumer++;
+       }
+       //find odd number just uising loop not use conditation
+       for(let i = 1; i < 20; i = i + 2){
+        console.log("The out put is "+i);
+       }
+       //find a even number just using while loop
+       let i = 0;
+       while(i < 20){
+        console.log("Even number is : "+i);
+        i = i + 2;
+       }
+       //using for loop and find the result
+       for(let i = 1; i <= 30; i++){
+        if(i % 5 == 0){
+          console.log("The number is : "+i);
+        }
+       }
+       //Another problem using for loop
+       for(let i = 1; i <= 30; i++){
+        if(i % 5 == 0 || i % 3 ==0){
+          console.log(i);
+        }
+       }
+       //another problem
+       for(let i = 1; i<= 30; i++){
+        if(i % 5 == 0 && i % 3 == 0){
+          console.log(i);
+        }
+       }
+       //here is the another problem
+       for(let i = 1; i <= 50; i = i + 4){
+        console.log("The out put is : "+i);
+       }
+    </script>
+</body>
+</html>
